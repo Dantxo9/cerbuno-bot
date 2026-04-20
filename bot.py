@@ -1,9 +1,10 @@
 import logging
+import os
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-import os
 TOKEN = os.getenv("TOKEN")
+print("Bot running...")
 
 logging.basicConfig(level=logging.INFO)
 
