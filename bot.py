@@ -13,7 +13,7 @@ from telegram.ext import (
 # TOKEN DESDE RAILWAY / VARIABLES
 # ---------------------------------
 TOKEN = os.getenv("TOKEN")
-
+print("TOKEN:", TOKEN)
 # ---------------------------------
 # LOGS
 # ---------------------------------
