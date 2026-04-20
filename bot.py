@@ -2,7 +2,8 @@ import logging
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "TU_TOKEN_AQUI"
+import os
+TOKEN = os.getenv("TOKEN")
 
 logging.basicConfig(level=logging.INFO)
 
