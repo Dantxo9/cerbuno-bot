@@ -148,9 +148,7 @@ Q1 = {
         "text": """
 🧩 *Pregunta 1*
 
-Algunos habitantes de San Sebastián dicen haberle visto entre las calles…
-
-🟠 *Equipo Naranja*: …Bermingham y San Francisco buscando algo para desayunar…
+Algunos habitantes de San Sebastián dicen haberle visto entre las calles Bermingham y San Francisco buscando algo para desayunar…
 
 ❓ *¿A dónde habrá ido?*
 """,
@@ -161,9 +159,7 @@ Algunos habitantes de San Sebastián dicen haberle visto entre las calles…
         "text": """
 🧩 *Pregunta 1*
 
-Algunos habitantes de San Sebastián dicen haberle visto entre las calles…
-
-🔵 *Equipo Azul*: …Secundino Esnaola y Segundi Izpizua buscando un bar para tomar algo…
+Algunos habitantes de San Sebastián dicen haberle visto entre las calles Secundino Esnaola y Segundi Izpizua buscando un bar para tomar algo…
 
 ❓ *¿A dónde habrá ido?*
 """,
@@ -174,9 +170,7 @@ Algunos habitantes de San Sebastián dicen haberle visto entre las calles…
         "text": """
 🧩 *Pregunta 1*
 
-Algunos habitantes de San Sebastián dicen haberle visto entre las calles…
-
-🟢 *Equipo Verde*: …Secundino Esnaola y Gran Vía desconcertado y sin sus gafas…
+Algunos habitantes de San Sebastián dicen haberle visto entre las calles Secundino Esnaola y Gran Vía desconcertado y sin sus gafas…
 
 ❓ *¿A dónde habrá ido?*
 """,
@@ -191,7 +185,6 @@ Q2 = {
 
 En la *Panadería* os dicen que vieron al Cerbuno esta mañana acompañado de un tal *Daniel Ibáñez*. Entre ellos estaban hablando de adónde ir, pero no quedó muy claro. Dijeron algo así:
 
-🟠 *Equipo Naranja*:
 Blanca por fuera, de lujo por dentro,  
 frente al río espera con porte de cuento.  
 Reyes y estrellas descansan allí,  
@@ -206,7 +199,6 @@ si visitas Donosti… ¿duermes en mí?
 
 En el *Bar* os dicen que vieron al Cerbuno esta mañana acompañado de un tal *Daniel Ibáñez*. Entre ellos estaban hablando de adónde ir, pero no quedó muy claro. Dijeron algo así:
 
-🔵 *Equipo Azul*:
 Bajo arcos y puestos empieza el trajín,  
 huele a pescado, verdura y jazmín.  
 Si buscas sabores del norte con gracia,  
@@ -221,7 +213,6 @@ Si buscas sabores del norte con gracia,
 
 En la *Óptica* os dicen que vieron al Cerbuno esta mañana acompañado de un tal *Daniel Ibáñez*. Entre ellos estaban hablando de adónde ir, pero no quedó muy claro. Dijeron algo así:
 
-🟢 *Equipo Verde*:
 Árboles y bancos guardan la quietud,  
 en pleno centro regalan salud.  
 Con jardín elegante y aire señorial,  
@@ -244,13 +235,12 @@ Q3 = {
     "Naranja": """
 🧩 *Pregunta 3*
 
-Vieron al Cerbuno en la *Plaza de la Constitución* mirando hacia el reloj de la fachada al Oeste, y los edificios que lo rodean, apuntando algo en su cuaderno.
+Vieron al Cerbuno en la *Plaza de la Constitución* mirando hacia los edificios y sus balcones, apuntando algo en su cuaderno.
 
 📝 ¿Estaría apuntando las coordenadas de su siguiente destino?
 
 Se le vio apuntar lo siguiente:
 
-🟠 *Equipo Naranja*:
 (B3-H2)°(A1+R1)’(A1+Q1)”N (B1-A1)°(AP1+Q1)’(A1+K1)”W
 
 ❓ *¿Qué coordenadas ha apuntado?*
@@ -258,13 +248,12 @@ Se le vio apuntar lo siguiente:
     "Azul": """
 🧩 *Pregunta 3*
 
-Vieron al Cerbuno en la *Plaza de la Constitución* mirando hacia el reloj de la fachada al Oeste, y los edificios que lo rodean, apuntando algo en su cuaderno.
+Vieron al Cerbuno en la *Plaza de la Constitución* mirando hacia los edificios y sus balcones, apuntando algo en su cuaderno.
 
 📝 ¿Estaría apuntando las coordenadas de su siguiente destino?
 
 Se le vio apuntar lo siguiente:
 
-🔵 *Equipo Azul*:
 (R1+X1)°(E1+N1)’(F1+L1)”N (V1-U1)°(AS3-K2)’(E1+G1)”W
 
 ❓ *¿Qué coordenadas ha apuntado?*
@@ -272,13 +261,12 @@ Se le vio apuntar lo siguiente:
     "Verde": """
 🧩 *Pregunta 3*
 
-Vieron al Cerbuno en la *Plaza de la Constitución* mirando hacia el reloj de la fachada al Oeste, y los edificios que lo rodean, apuntando algo en su cuaderno.
+Vieron al Cerbuno en la *Plaza de la Constitución* mirando hacia los edificios y sus balcones, apuntando algo en su cuaderno.
 
 📝 ¿Estaría apuntando las coordenadas de su siguiente destino?
 
 Se le vio apuntar lo siguiente:
 
-🟢 *Equipo Verde*:
 (U2-AA1)°(I1+J1)’(H1+J1)N (I1-H1)°(AD1+AC1)’(T1-H1)”W
 
 ❓ *¿Qué coordenadas ha apuntado?*
@@ -299,8 +287,6 @@ Si ponéis estas coordenadas en vuestro Google Maps, ¿a dónde os llevan? 📍
 ✅ *Respuesta esperada*:
 Telegram os pedirá la ubicación y verificará que os encontráis cerca de las coordenadas *43°19'18"N 1°59'12"W*.
 
-⚠️ En caso de que haya errores, existe una respuesta alternativa:
-escribir *club náutico*.
 """
 
 Q5_TEXT = """
