@@ -20,8 +20,8 @@ TOKEN = os.getenv("TOKEN")
 ADMIN_ID = 6588872844
 
 # Coordenadas objetivo pregunta 4
-TARGET_LAT = 51.540122
-TARGET_LON = -0.182873
+TARGET_LAT = 51.540552, 
+TARGET_LON = -0.181171
 
 # Radio permitido (metros)
 GPS_RADIUS_METERS = 40
