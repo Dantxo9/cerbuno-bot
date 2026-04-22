@@ -17,7 +17,7 @@ from telegram.ext import (
 TOKEN = os.getenv("TOKEN")
 
 # TU ID TELEGRAM
-ADMIN_ID = 123456789
+ADMIN_ID = 6588872844
 
 # Coordenadas objetivo Pregunta 4
 TARGET_LAT = 51.540511
