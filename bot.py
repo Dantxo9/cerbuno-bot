@@ -159,7 +159,7 @@ Algunos habitantes de San Sebastián dicen haberle visto entre las calles Bermin
         "text": """
 🧩 *Pregunta 1*
 
-Algunos habitantes de San Sebastián dicen haberle visto entre las calles Secundino Esnaola y Segundi Izpizua buscando un bar para tomar algo…
+Algunos habitantes de San Sebastián dicen haberle visto entre las calles Secundino Esnaola y Segundo Izpizua buscando un bar para tomar algo…
 
 ❓ *¿A dónde habrá ido?*
 """,
@@ -241,7 +241,8 @@ Vieron al Cerbuno en la *Plaza de la Constitución* mirando hacia los edificios 
 
 Se le vio apuntar lo siguiente:
 
-(B3-H2)°(A1+R1)’(A1+Q1)”N (B1-A1)°(AP1+Q1)’(A1+K1)”W
+(B3-H2)°(A1+R1)’(A1+Q1)”N
+(B1-A1)°(AP1+Q1)’(A1+K1)”W
 
 ❓ *¿Qué coordenadas ha apuntado?*
 """,
@@ -254,7 +255,8 @@ Vieron al Cerbuno en la *Plaza de la Constitución* mirando hacia los edificios 
 
 Se le vio apuntar lo siguiente:
 
-(R1+X1)°(E1+N1)’(F1+L1)”N (V1-U1)°(AS3-K2)’(E1+G1)”W
+(R1+X1)°(E1+N1)’(F1+L1)”N
+(V1-U1)°(AS3-K2)’(E1+G1)”W
 
 ❓ *¿Qué coordenadas ha apuntado?*
 """,
@@ -267,7 +269,8 @@ Vieron al Cerbuno en la *Plaza de la Constitución* mirando hacia los edificios 
 
 Se le vio apuntar lo siguiente:
 
-(U2-AA1)°(I1+J1)’(H1+J1)N (I1-H1)°(AD1+AC1)’(T1-H1)”W
+(U2-AA1)°(I1+J1)’(H1+J1)N
+(I1-H1)°(AD1+AC1)’(T1-H1)”W
 
 ❓ *¿Qué coordenadas ha apuntado?*
 """
@@ -509,7 +512,7 @@ async def location_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(
             f"📍 Aún no estáis en el lugar correcto.\n"
             f"Estáis aproximadamente a *{int(dist)} metros* del punto.\n\n"
-            f"Si el GPS falla, podéis escribir *club náutico* como alternativa.",
+            f"Si el GPS falla, podéis contactar a Daniel.",
             parse_mode="Markdown"
         )
 
@@ -635,7 +638,7 @@ async def router(update: Update, context: ContextTypes.DEFAULT_TYPE):
             )
         else:
             await update.message.reply_text(
-                "📍 En esta prueba debéis enviar vuestra ubicación o escribir *club náutico* si el GPS falla.",
+                "📍 En esta prueba debéis enviar vuestra ubicación o escribir a Daniel si el GPS falla.",
                 parse_mode="Markdown"
             )
         return
