@@ -269,7 +269,7 @@ Vieron al Cerbuno en la *Plaza de la Constitución* mirando hacia los edificios 
 
 Se le vio apuntar lo siguiente:
 
-(U2-AA1)°(I1+J1)’(H1+J1)N
+(U2-AA1)°(I1+J1)’(H1+J1)”N
 (I1-H1)°(AD1+AC1)’(T1-H1)”W
 
 ❓ *¿Qué coordenadas ha apuntado?*
